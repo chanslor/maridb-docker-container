@@ -9,4 +9,4 @@ RUN /usr/bin/mysqld_safe --datadir="/var/lib/mysql" --socket="/var/lib/mysql/mys
 EXPOSE 3306
 
 # docker build -t chanslor/mariadb .
-# docker run -it -p 3306:3306 -e MYSQL_ROOT_PASSWORD=Ems12345 chanslor/mariadb
+# docker run -it -p 3306:3306 -e MYSQL_ROOT_PASSWORD=abc123 chanslor/mariadb
